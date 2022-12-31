@@ -1,0 +1,136 @@
+body {
+  background: #f6f6f6;
+  font-family: "Nunito", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  color: #1f1f1f;
+}
+
+.container {
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  color: #1f1f1f;
+  width: 20em;
+  border-radius: 0.8em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 1em;
+  margin: 1em;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 30px;
+}
+
+.card h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  margin: 1.5em 0 2em 0;
+  justify-content: center;
+}
+
+.gradient {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.card button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  color: #ccc;
+}
+
+.card span {
+  font-size: 0.9em;
+}
+
+.card .color1 {
+  margin-right: 0.5em;
+  font-size: 400;
+}
+
+/* MODAL WINDOW */
+
+.modal {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #013a6b;
+  background-image: -webkit-linear-gradient(30deg, #013a6b 50%, #004e95 50%);
+  color: white;
+  width: 40vw;
+  height: 60px;
+  padding: 7em;
+  border-radius: 10px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+.btn-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: rgb(234, 0, 255);
+  padding: 3px 10px;
+  color: black;
+  font-size: 21px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
