@@ -6,11 +6,17 @@ Gradient Generator is an online web application that allows users to generate an
 
 ![Gradient Generator App](https://i.imgur.com/C6imKxA.png)
 
+- Testing the App Locally
+Once you've built the app, you may test it locally by running npm run preview command.
+
+bash
+$ npm run build
+$ npm run preview
+
 ## Deployment
 
-If you created a JavaScript environment using vite you can deploy this project using
+If you setup JavaScript using vite you can deploy this project using
 
 ```bash
   npm run deploy
 ```
-
