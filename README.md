@@ -4,7 +4,7 @@ Gradient Generator is an online web application that allows users to generate an
 
 > This app can be useful for web designers and developers looking for an easy and convenient way to create and experiment with gradient backgrounds, without having to manually write the CSS code or use more complex image editing software.
 
-![Mapty App](https://i.imgur.com/C6imKxA.png)
+![Gradient Generator App](https://i.imgur.com/C6imKxA.png)
 
 ## Deployment
 
